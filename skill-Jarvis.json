@@ -1,0 +1,3551 @@
+{
+  "name": "Jarvis",
+  "intents": [
+    {
+      "intent": "Product",
+      "examples": [
+        {
+          "text": "product no."
+        },
+        {
+          "text": "enter the product no."
+        },
+        {
+          "text": "production"
+        },
+        {
+          "text": "Product Numeber"
+        },
+        {
+          "text": "manufacture"
+        },
+        {
+          "text": "sample number"
+        },
+        {
+          "text": "product"
+        },
+        {
+          "text": "manufacturing number"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Shipped",
+      "examples": [
+        {
+          "text": "Shipped"
+        },
+        {
+          "text": "Shipment"
+        },
+        {
+          "text": "Units"
+        },
+        {
+          "text": "unit"
+        }
+      ],
+      "description": "Amount of Units Shipped"
+    },
+    {
+      "intent": "hello",
+      "examples": [
+        {
+          "text": "hello"
+        },
+        {
+          "text": "what's up"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "greetings"
+        },
+        {
+          "text": "goodmorning"
+        },
+        {
+          "text": "hi"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ItemDesc",
+      "examples": [
+        {
+          "text": "Item Description"
+        },
+        {
+          "text": "ItemDesc"
+        }
+      ],
+      "description": "ItemDesc"
+    },
+    {
+      "intent": "varietal",
+      "examples": [
+        {
+          "text": "brand"
+        },
+        {
+          "text": "description"
+        },
+        {
+          "text": "variety"
+        },
+        {
+          "text": "varied"
+        }
+      ],
+      "description": "description of the product/brand"
+    },
+    {
+      "intent": "inventory",
+      "examples": [
+        {
+          "text": "supply"
+        },
+        {
+          "text": "stock"
+        },
+        {
+          "text": "stockpile"
+        },
+        {
+          "text": "stocks"
+        },
+        {
+          "text": "summary"
+        },
+        {
+          "text": "store"
+        }
+      ],
+      "description": "Begining Inventory"
+    },
+    {
+      "intent": "OrderQty",
+      "examples": [
+        {
+          "text": "Order Quantity"
+        },
+        {
+          "text": "OrderQty"
+        },
+        {
+          "text": "Order Qty"
+        }
+      ],
+      "description": "OrderQty"
+    },
+    {
+      "intent": "quantity",
+      "examples": [
+        {
+          "text": "no.of cases"
+        },
+        {
+          "text": "boxes"
+        },
+        {
+          "text": "cases"
+        },
+        {
+          "text": "no.of boxes"
+        },
+        {
+          "text": "number of boxes"
+        },
+        {
+          "text": "quantity"
+        },
+        {
+          "text": "number of cases"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "amount",
+      "examples": [
+        {
+          "text": "volume"
+        },
+        {
+          "text": "measurement"
+        },
+        {
+          "text": "range"
+        },
+        {
+          "text": "amount"
+        },
+        {
+          "text": "capacity"
+        },
+        {
+          "text": "content"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Group",
+      "examples": [
+        {
+          "text": "Group"
+        }
+      ],
+      "description": "Group"
+    },
+    {
+      "intent": "forecast",
+      "examples": [
+        {
+          "text": "6"
+        },
+        {
+          "text": "monthly comparison"
+        },
+        {
+          "text": "% difference"
+        },
+        {
+          "text": "forecast for month"
+        },
+        {
+          "text": "forecast"
+        },
+        {
+          "text": "3"
+        },
+        {
+          "text": "2018"
+        },
+        {
+          "text": "chardonnay"
+        },
+        {
+          "text": "5L"
+        },
+        {
+          "text": "Franzia"
+        }
+      ],
+      "description": "Forecasting month wise"
+    },
+    {
+      "intent": "PackSize",
+      "examples": [
+        {
+          "text": "Pack Size"
+        },
+        {
+          "text": "PackSize"
+        }
+      ],
+      "description": "PackSize"
+    },
+    {
+      "intent": "Schedule",
+      "examples": [
+        {
+          "text": "lineup"
+        },
+        {
+          "text": "calender"
+        },
+        {
+          "text": "list"
+        },
+        {
+          "text": "program"
+        },
+        {
+          "text": "timetab;e"
+        },
+        {
+          "text": "ime table"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "balance",
+      "examples": [
+        {
+          "text": "proportion"
+        },
+        {
+          "text": "equity"
+        },
+        {
+          "text": "inventory"
+        },
+        {
+          "text": "Balance"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "bye",
+      "examples": [
+        {
+          "text": "bye"
+        },
+        {
+          "text": "see you later"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "farewell"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Date",
+      "examples": [
+        {
+          "text": "Dates"
+        },
+        {
+          "text": "date"
+        }
+      ],
+      "description": "Dates"
+    },
+    {
+      "intent": "compare",
+      "examples": [
+        {
+          "text": "compare forecast"
+        },
+        {
+          "text": "Compare"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "PackSize",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "3.0L/6",
+          "synonyms": [
+            "3.0L/6"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "5.0L/4",
+          "synonyms": [
+            "5.0L/4"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Balance",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "4",
+          "synonyms": [
+            "four",
+            "april",
+            "5",
+            "3"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "balance",
+          "synonyms": [
+            "Balance"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "3767",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "3049",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Description",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "10 SPAN CHARD CC CC",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "10 SPAN PGRIS CNSVY",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "7 DEADLY ZINS IB16",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "13 CELSIUS PGRIGIO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "10 SPAN PNOIR CC IB",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "10 SPAN CAB SAUV CC",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "10 SPAN CHARD CC IB",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "secondYear",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "2017",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "All",
+          "synonyms": [
+            "all"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "2018",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2019",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "brand",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "GRAY FOX",
+          "synonyms": [
+            "gray",
+            "grayfox",
+            "gray fox"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "OAK LEAF",
+          "synonyms": [
+            "oakleaf",
+            "oak"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "FOXHORN",
+          "synonyms": [
+            "foxhorn",
+            "fox horn",
+            "fox"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SUMMERFIELD",
+          "synonyms": [
+            "SUMMERFIELD",
+            "SUMMER",
+            "FIELD",
+            "SUM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PACIFIC PEAK",
+          "synonyms": [
+            "PACIFIC PEAK",
+            "PACIFICPEAK",
+            "PACIFIC",
+            "PEAK",
+            "PAP"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "OAK CREEK",
+          "synonyms": [
+            "OAK CREEK",
+            "oak",
+            "oac",
+            "creek",
+            "oakcreek"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "FISH EYE",
+          "synonyms": [
+            "FISH EYE",
+            "fisheye",
+            "fish",
+            "eye",
+            "fsh"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "LEJON",
+          "synonyms": [
+            "LEJON",
+            "lej"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CORBETT CANYON",
+          "synonyms": [
+            "CORBETT CANYON",
+            "CORBETT",
+            "canyon",
+            "CORBETTCANYON"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PINOT EVIL",
+          "synonyms": [
+            "PINOT EVIL",
+            "pinot",
+            "evil"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "RUNNING W/SCISSORS",
+          "synonyms": [
+            "running",
+            "running w/scissors",
+            "scissors"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TRIBUNO",
+          "synonyms": [
+            "TRIBUNO",
+            "tri buno",
+            "buno",
+            "tri"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "YOSEMITE RD",
+          "synonyms": [
+            "yosemite",
+            "yosemite rd"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "G&D",
+          "synonyms": [
+            "G&D",
+            "gandd",
+            "g d"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "FIREFLY RIDGE",
+          "synonyms": [
+            "FIREFLY RIDGE",
+            "FIREFLY",
+            "RIDGE",
+            "fir",
+            "FIREFLYRIDGE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yellowtail",
+          "synonyms": [
+            "Yellowtail",
+            "yellow",
+            "yellow tail"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "QUAIL OAK",
+          "synonyms": [
+            "QUAIL OAK",
+            "QUAIL",
+            "QUAILOAK",
+            "Quo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "GRENACHE",
+          "synonyms": [
+            "grenache",
+            "grenash",
+            "grenach"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PETIT VERDOT",
+          "synonyms": [
+            "petit verdot",
+            "petit",
+            "verdot",
+            "vardot",
+            "verdo",
+            "vardo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "STAMPMAKER'S",
+          "synonyms": [
+            "stampmaker",
+            "stampmakers",
+            "stamp maker",
+            "stamp makers",
+            "stampmaker's",
+            "stamp maker's"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "VIOGNIER",
+          "synonyms": [
+            "viognier",
+            "viog nier"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ASSEMBLAGE RED",
+          "synonyms": [
+            "Assemblage red",
+            "Assemblagered",
+            "Assamble red",
+            "Red"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ASSEMBLAGE BLANC",
+          "synonyms": [
+            "ASSEMBLAGE",
+            "assemblage blanc",
+            "assemblageblanc",
+            "Assemble Blanc",
+            "Asselmblage blanc"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ZINFANDEL",
+          "synonyms": [
+            "zinfandel",
+            "zinfandal"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BIG HOUSE WHITE",
+          "synonyms": [
+            "big house white",
+            "bighousewhite",
+            "big house",
+            "bighouse"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BIG HOUSE RED",
+          "synonyms": [
+            "big house red",
+            "bighousered",
+            "big house",
+            "bighouse"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ANGEL FOOD",
+          "synonyms": [
+            "angel food",
+            "angelfood",
+            "Angel"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DEVILS FOOD",
+          "synonyms": [
+            "DevilsFood",
+            "Devils food",
+            "Devils",
+            "Devil"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BUTTERKISSED CHARDONNAY",
+          "synonyms": [
+            "butterkissed chardonnay",
+            "butterkisses",
+            "butterr kissed",
+            "butter",
+            "butterkiss"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "FRANZIA",
+          "synonyms": [
+            "Franz",
+            "Franzia",
+            "Frz"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Date",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1/3/2019",
+          "synonyms": [
+            "Jan 3, 2019",
+            "03-Jan-19",
+            "03-01-19"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "1/2/2019",
+          "synonyms": [
+            "Jan 2, 2019",
+            "02-Jan-19",
+            "02-01-19"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ItemDesc",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "FRANZIA CHARD",
+          "synonyms": [
+            "FRANZIA CHARD"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "FRANZIA",
+          "synonyms": [
+            "FRANZIA",
+            "FRANZIA CHARD"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "month",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "4",
+          "synonyms": [
+            "april",
+            "apr",
+            "4"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "all",
+          "synonyms": [
+            "All"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "2",
+          "synonyms": [
+            "feburary",
+            "feb",
+            "2"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "3",
+          "synonyms": [
+            "march",
+            "mar",
+            "3"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "1",
+          "synonyms": [
+            "january",
+            "jan",
+            "1"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "12",
+          "synonyms": [
+            "december",
+            "dec",
+            "12"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "10",
+          "synonyms": [
+            "october",
+            "oct",
+            "10"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "11",
+          "synonyms": [
+            "november",
+            "nov",
+            "11"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "9",
+          "synonyms": [
+            "september",
+            "sep",
+            "9"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "8",
+          "synonyms": [
+            "august",
+            "aug",
+            "8"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "7",
+          "synonyms": [
+            "july",
+            "jul",
+            "7"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "6",
+          "synonyms": [
+            "june",
+            "jun",
+            "6"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "5",
+          "synonyms": [
+            "may",
+            "5"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "year",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "2019",
+          "synonyms": [
+            "19"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "2017",
+          "synonyms": [
+            "17"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "2018",
+          "synonyms": [
+            "18"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "All",
+          "synonyms": [
+            "all"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "schedule",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "190107",
+          "synonyms": [
+            "19/01/2007",
+            "19 jan 2007",
+            "19 Jan 07",
+            "19-01-2007",
+            "19.01.2007",
+            "19/01/07",
+            "19-01-07",
+            "19.01.07"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "size",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1.0L",
+          "synonyms": [
+            "1.0Litre",
+            "1.0 litre",
+            "1.0l"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "9.0L",
+          "synonyms": [
+            "9.0L",
+            "9.0litre",
+            "9.0 Litre",
+            "9L",
+            "9 L",
+            "9"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "375ML",
+          "synonyms": [
+            "375ML",
+            "375 ML",
+            "375mililitre",
+            "375.0",
+            "375 mili litre",
+            "375 Mili L"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "3.0L",
+          "synonyms": [
+            "3Litre",
+            "3 Litre",
+            "3.0L",
+            "3.0 Litre",
+            "3.0Litre",
+            "3.0 L",
+            "3l"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "5.0L",
+          "synonyms": [
+            "5Litre",
+            "5 litre",
+            "5.0L",
+            "5.0 L",
+            "5.0litre",
+            "5.0 litre",
+            "5l"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "500ML",
+          "synonyms": [
+            "500",
+            "500 Mililitre",
+            "500 mili litre",
+            "500ml",
+            "500 mili"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "750ML",
+          "synonyms": [
+            "750",
+            "750 mililitre",
+            "750 mili litre",
+            "750ml",
+            "750 mili"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "6.0L",
+          "synonyms": [
+            "6.0L",
+            "6.0litre",
+            "6.0 litre",
+            "6Litre",
+            "6 litre",
+            "6l",
+            "6 L"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "250ML",
+          "synonyms": [
+            "250MiliLitre",
+            "250 MiliLitre",
+            "250ML",
+            "250 ml",
+            "250.0Mililitre",
+            "250.0 MiliLitre",
+            "250.0 ml"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "19.5L",
+          "synonyms": [
+            "19.5litre",
+            "19.5L",
+            "19.5 litre",
+            "19.5 l"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "187ML",
+          "synonyms": [
+            "187Mili Litre",
+            "187ML",
+            "187mililitre",
+            "187.0",
+            "187.0mililitre",
+            "187.0ML",
+            "187 Mili Litre",
+            "187 mililitre"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "1.5L",
+          "synonyms": [
+            "1.5litre",
+            "1.5 litre",
+            "1.5l"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "All",
+          "synonyms": [
+            "all"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "order",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "498",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "308",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "14",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "29",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "17",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "shipped",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "312",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "140",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "386",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "varietal",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "MUSCAT CANELLI (BLANC)",
+          "synonyms": [
+            "MUSCAT CANELLI (BLANC)",
+            "MUSCAT CANELLI",
+            "MUSCATCANELLI (BLANC)",
+            "MUSCATCANELLI",
+            "musctcneli",
+            "CANELLI (BLANC)",
+            "MUSCAT CANELL",
+            "mustcn",
+            "mustcnl",
+            "mcatcnl",
+            "mcat cnll"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SPANISH RED",
+          "synonyms": [
+            "SPANISH RED",
+            "SPANISHRED",
+            "spnshread",
+            "spnsh read",
+            "spnshred",
+            "spnsh red",
+            "redspnish",
+            "red spnish",
+            "redspnsh",
+            "red spnsh",
+            "spain red",
+            "spainred"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PRIMATIVO ZINFANDEL",
+          "synonyms": [
+            "PRIMATIVO ZINFANDEL",
+            "PRIMATIVOZINFANDEL",
+            "primzinfandl",
+            "zinfandel",
+            "primativozin",
+            "primzin",
+            "primativzin"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Estate Cabernet-Malbec",
+          "synonyms": [
+            "Estate Cabernet-Malbec",
+            "Estate CabernetMalbec",
+            "EstateCabernet-Malbec",
+            "EstateCabernetMalbec",
+            "Estate Cabernet Malbec",
+            "Estate Cabernet",
+            "EstateCabernet",
+            "EstateMalbec",
+            "Estate-Cabernet",
+            "eststcabernt",
+            "estetcbrnt",
+            "estate cbnt malbec"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Estate Cabernet-Petite Sirah",
+          "synonyms": [
+            "Estate Cabernet-Petite Sirah",
+            "Estate Cabernet Petite Sirah",
+            "Estate Cabernet-PetiteSirah",
+            "Estat Cabernet-Petite Sirah",
+            "Estate Cabrnt-Petite Sirah",
+            "Estate Cabrnet-Petite Sirah",
+            "Estate Cabrnt Petite Sirah",
+            "Estate Cabernet-Petite Siah",
+            "Estate Cabernet-Pette Sirah",
+            "Estate Cabernet-Petite Srh",
+            "Estate Cabret-Petite Sirah",
+            "Estt Cabernet-Petite Sirah"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MOURVEDRE",
+          "synonyms": [
+            "MOURVEDRE",
+            "mourvedr",
+            "mourvdr",
+            "murveder",
+            "murvdr",
+            "mvedere"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TANNAT",
+          "synonyms": [
+            "tannat",
+            "tant",
+            "taount",
+            "tat",
+            "tanat",
+            "tnnt"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SANGIOVESE (SANGIOVETO)",
+          "synonyms": [
+            "SANGIOVESE (SANGIOVETO)",
+            "SANGIOVESE",
+            "SANGIOVETO",
+            "sangovse",
+            "SANGIOVET",
+            "sangio"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TEMPRANILLO",
+          "synonyms": [
+            "TEMPRANILLO",
+            "temprnilo",
+            "tmprnilo",
+            "tempranilo",
+            "temparnilo",
+            "tempernillo",
+            "temper",
+            "temnillo",
+            "temnilo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "LAGREIN",
+          "synonyms": [
+            "LAGREIN",
+            "Lagrin",
+            "lagrn",
+            "lgrein",
+            "lgrin",
+            "lagarein",
+            "lagren",
+            "legran",
+            "legrin",
+            "lagran"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TEROLDEGO",
+          "synonyms": [
+            "TEROLDEGO",
+            "terolde go",
+            "troldgo",
+            "troldeo",
+            "trldgo",
+            "trlego"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CABERNET FRANC",
+          "synonyms": [
+            "CABERNET FRANC",
+            "CABERNETFRANC",
+            "CABERNET FRAN",
+            "CABERNET-FRANC",
+            "CABNET FRANC",
+            "CABNETFRANC",
+            "CAB FRANC",
+            "CABFRANC",
+            "CABERNET FRA",
+            "CAB FRA",
+            "CABFRA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BLUEBERRY FRUIT WINE",
+          "synonyms": [
+            "BLUEBERRY FRUIT WINE",
+            "BLUEBERRYFRUIT WINE",
+            "BLUEBERRY FRUITWINE",
+            "BLUEBERRYFRUITWINE",
+            "BLUEBERRY WINE",
+            "FRUIT WINE blueberry",
+            "blubryfruitwine",
+            "blubrywine",
+            "fruitwine",
+            "bluberryfruit",
+            "bluberry wine",
+            "fruit wine",
+            "bluberry fruit",
+            "blbrywine",
+            "blybryfrtwine"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ALBARINO",
+          "synonyms": [
+            "ALBARINO",
+            "albrno",
+            "albrino",
+            "akbrnoo",
+            "albirno",
+            "barino"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ALEATICO",
+          "synonyms": [
+            "ALEATICO",
+            "aleatco",
+            "alatco",
+            "aleatioo",
+            "aleatcoo",
+            "altico"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MALBEC/CABERNET FRANC",
+          "synonyms": [
+            "MALBEC/CABERNET FRANC",
+            "MALBEC/CABERNETFRANC",
+            "malbecabernet",
+            "malbecabrnt",
+            "malbecabrntfran",
+            "malbeccabernet",
+            "cabernet fran",
+            "cabernetfran",
+            "cabernetfan",
+            "cabernet fan",
+            "malbecfran",
+            "malbec fran",
+            "malbec",
+            "cabernet",
+            "fran",
+            "cabernetfrn",
+            "malfrn",
+            "malebecfrn"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ARCTIC BERRY",
+          "synonyms": [
+            "ARCTIC BERRY",
+            "ARCTICBERRY",
+            "ARCTIC BERY",
+            "arctcberry",
+            "artcberry",
+            "arcberry",
+            "arcberrye",
+            "arcberree",
+            "arcticberre",
+            "arcticberree",
+            "arcticbry"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CHARDONNAY RICH & BUTTERY",
+          "synonyms": [
+            "CHARDONNAY RICH & BUTTERY",
+            "CHARDONNAYRICH & BUTTERY",
+            "CHARDONNAY RICH  BUTTERY",
+            "CHARDONNAY RICH",
+            "CHARDONNAYRICH",
+            "CHARDONNAY RICH BUTTERY",
+            "CHARDONNAY RICHBUTTERY",
+            "CHARDONNAY RICH &BUTTERY",
+            "CHARDONNAY RICH&BUTTERY",
+            "CHARDONNAYRICH BUTTERY"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "WHITE BURGUNDY",
+          "synonyms": [
+            "WHITE BURGUNDY",
+            "WHITEBURGUNDY",
+            "whtburgundy",
+            "whtburgndy",
+            "whtbrgndy",
+            "wtburgndy",
+            "wtbrgndy",
+            "whtebrgndy",
+            "whitbrgndy",
+            "whteburgndy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Port",
+          "synonyms": [
+            "prt",
+            "porte",
+            "port",
+            "poart"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CITRUS STORM",
+          "synonyms": [
+            "CITRUS STORM",
+            "citrsstrom",
+            "citrus strom",
+            "citrusstrom",
+            "CITRUSSTORM",
+            "citrsstrm",
+            "citstrm",
+            "strom",
+            "cstrom",
+            "cirstrom",
+            "cirstrm",
+            "cirstm"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PINEAPPLE BLAST",
+          "synonyms": [
+            "PINEAPPLE BLAST",
+            "PINEAPPLEBLAST",
+            "pinplblst",
+            "pinplbls",
+            "pnplblst",
+            "pineappleblst",
+            "pineaplblst",
+            "pineblast",
+            "pinepblst"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ORANGE FLAME",
+          "synonyms": [
+            "ORANGE FLAME",
+            "ORANGEFLAME",
+            "orngflm",
+            "orngflame",
+            "orangeflm",
+            "orangeflme",
+            "orngflam",
+            "orangflame"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ROASTED OAK RED BLEND",
+          "synonyms": [
+            "ROASTED OAK RED BLEND",
+            "ROASTED OAK REDBLEND",
+            "ROASTED OAKRED BLEND",
+            "ROASTEDOAK RED BLEND",
+            "ROASTED OAK",
+            "RED BLEND",
+            "ROASTED RED BLEND",
+            "oakredblen",
+            "roastedred",
+            "rostedblen",
+            "oakblend",
+            "redoakblend",
+            "rostdoakred",
+            "rstdoakrdblnd",
+            "rstdokblnd"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ROSE SANGRIA",
+          "synonyms": [
+            "ROSE SANGRIA",
+            "ROSESANGRIA",
+            "rossangria",
+            "rosesangra",
+            "rosesanga",
+            "rossanga",
+            "rsangria"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SYRAH/VIOGNER",
+          "synonyms": [
+            "SYRAH/VIOGNER",
+            "syrah",
+            "viogner",
+            "syrh/vignr",
+            "syrh/viagnr",
+            "viognr",
+            "syrh",
+            "syrvognr",
+            "syvignr"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SHIRAZ",
+          "synonyms": [
+            "shiraz",
+            "shiraj",
+            "sheraz"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SWEET RED",
+          "synonyms": [
+            "sweet red",
+            "sweetred"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "KIT RED/WHITE MIXED",
+          "synonyms": [
+            "Kit Red/White Mixed",
+            "kit red",
+            "kitred",
+            "Kit whiteMixed",
+            "kit red white mixed",
+            "kit white mixed",
+            "kit mixed",
+            "kit"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PINK MOSCATO",
+          "synonyms": [
+            "pink moscato",
+            "pink",
+            "moscato",
+            "pinkmoscato",
+            "moscat",
+            "pinkmoscat",
+            "moskat"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "REFRESHING WHITE",
+          "synonyms": [
+            "Refreshing White",
+            "RefreshingWhite",
+            "refreshinghite",
+            "Refreshing",
+            "refresh"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PINOT NOIR/CARMENERE",
+          "synonyms": [
+            "pinot noir / carmenere",
+            "pinot Noir",
+            "pinotnoir",
+            "pinot carmenere",
+            "pirotcarmenere",
+            "carmenere"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PINOT GRIGIO/FR COLOMBARD",
+          "synonyms": [
+            "pinot grigio",
+            "pinot",
+            "fr colome",
+            "colome"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "WHITE MERLOT",
+          "synonyms": [
+            "white merlot",
+            "merlot"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "RHINE",
+          "synonyms": [
+            "rhine"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PINOT NOIR",
+          "synonyms": [
+            "pinotnoir",
+            "pinot",
+            "noir",
+            "pinot noir"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "WHITE GRENACHE",
+          "synonyms": [
+            "white grenache",
+            "white",
+            "grenach",
+            "grenache",
+            "garnacha"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DOLCETTO",
+          "synonyms": [
+            "dolcetto",
+            "dlcto",
+            "doletto"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DRY VERMOUTH",
+          "synonyms": [
+            "dryvermouth",
+            "dry vermouth"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MERLOT",
+          "synonyms": [
+            "merlot",
+            "marllot",
+            "marlot",
+            "merlo",
+            "marlo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ORANGE JUBILEE",
+          "synonyms": [
+            "orange jubilee",
+            "orangejubilee",
+            "jubilee",
+            "jubili",
+            "jublee",
+            "jubly",
+            "orangejubly",
+            "orangejublee",
+            "orangejubili"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SWEET VERMOUTH",
+          "synonyms": [
+            "sweet vermouth",
+            "sweetvermouth"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "RIESLING",
+          "synonyms": [
+            "riesling",
+            "resling",
+            "reesling",
+            "riesleng",
+            "resleng"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PINOT GRIS",
+          "synonyms": [
+            "pinotgris",
+            "gris"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ROSE",
+          "synonyms": [
+            "rose"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MARSALA",
+          "synonyms": [
+            "marsala",
+            "Marsalla",
+            "mersela",
+            "mersella"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "WHITE ZINFANDEL",
+          "synonyms": [
+            "white",
+            "zinfandel",
+            "white zinfandel",
+            "wite",
+            "zinfendel",
+            "whit",
+            "zenfandal",
+            "zinfandels"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CHIANTI",
+          "synonyms": [
+            "chinati",
+            "chianti",
+            "chiant"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "RED SANGRIA",
+          "synonyms": [
+            "redsangria",
+            "sangria",
+            "sangriya",
+            "red sangria"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CRISP WHITE",
+          "synonyms": [
+            "crisp",
+            "white",
+            "crispwhite",
+            "crisp white"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CABERNET SAUVIGNON",
+          "synonyms": [
+            "cabernet sauvignon",
+            "cabernet",
+            "sauvignon",
+            "cabernetsauvignon"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CHILLABLE RED",
+          "synonyms": [
+            "chillable red",
+            "cillable",
+            "chillable",
+            "chillablered"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BURGUNDY",
+          "synonyms": [
+            "burgundy",
+            "burgandy",
+            "burgund",
+            "burgundi",
+            "burgandi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BLANK",
+          "synonyms": [
+            "blank",
+            "blnk"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Red",
+          "synonyms": [
+            "red"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MUSCAT (MOSCATO)",
+          "synonyms": [
+            "muscat",
+            "moscato"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CHABLIS",
+          "synonyms": [
+            "chablis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "WHITE",
+          "synonyms": [
+            "white"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CHARDONNAY",
+          "synonyms": [
+            "chardonnay"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BLUSH",
+          "synonyms": [
+            "blush"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "All",
+          "synonyms": [
+            "all"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PETITE SIRAH",
+          "synonyms": [
+            "petitesirah",
+            "petite sirah",
+            "sirah",
+            "serah",
+            "petete sirah",
+            "petetesirah",
+            "peteteserah"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CRIMSON & CLOVER",
+          "synonyms": [
+            "crimson clover",
+            "crimsonclover",
+            "crimson",
+            "clover",
+            "clovers",
+            "crimsonclovers"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CARAMEL APPLE WHITE BLEND",
+          "synonyms": [
+            "charamelapple",
+            "charamel apple",
+            "charamelwhite",
+            "charamelapplewhite",
+            "charamelapple white",
+            "charamel apple white",
+            "applewhiteblend",
+            "apple white blend",
+            "apple blend",
+            "white apple",
+            "whiteapple",
+            "appleblen",
+            "white apple blend",
+            "charamel apple blend",
+            "charamel white apple"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "COCONUT",
+          "synonyms": [
+            "coconut",
+            "kokonut"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DRAGON FRUIT",
+          "synonyms": [
+            "dragon Fruit",
+            "DragonFruit",
+            "dragonfruits",
+            "Dragons",
+            "Dragon"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ELECTRIC MELON",
+          "synonyms": [
+            "electric melon",
+            "electricmelon",
+            "electric",
+            "Electric Melom"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BLUE RASPBERRY",
+          "synonyms": [
+            "blue raspberry",
+            "blue rasberry",
+            "blueraspberry",
+            "bluerasberry",
+            "raspberry",
+            "rasberry"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PEACHES AND CREAM",
+          "synonyms": [
+            "peaches & cream",
+            "peaches and cream",
+            "Peaches&cream",
+            "peaches cream",
+            "peachescream",
+            "peach & cream"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "STRAWBERRY KIWI",
+          "synonyms": [
+            "strawberry kiwi",
+            "strawberrykiwi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "POMEGRANATE",
+          "synonyms": [
+            "pomegranate",
+            "pome granate",
+            "pomegrenate",
+            "pomgrnate",
+            "pomgranate",
+            "pomgranete",
+            "pomgerenete",
+            "pomgrenete"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BLACKBERRY",
+          "synonyms": [
+            "blackberry",
+            "black berry",
+            "balcberry",
+            "blacberry",
+            "Berry",
+            "blackbery"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CONCORD",
+          "synonyms": [
+            "concord",
+            "concurd"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "HABANERO LIME-ARITA",
+          "synonyms": [
+            "Habanero lime arita",
+            "habanerolimearita",
+            "habanerolim",
+            "habanerolime",
+            "habanerolime arita",
+            "habanero arita",
+            "habanero lime",
+            "habaneroarita",
+            "lime arita",
+            "limearita",
+            "habanero",
+            "arita"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BLACKBERRY RED BLEND",
+          "synonyms": [
+            "blackberryred blend",
+            "blackberry red blend",
+            "blackberryredblend",
+            "redblend",
+            "red blackberry",
+            "blend blackberry",
+            "redblackberry",
+            "blendblackberry",
+            "blckberryred",
+            "blckbryredblended"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PINOT GRIGIO",
+          "synonyms": [
+            "pinotgrigio",
+            "grigio"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TROPICAL WHITE BLEND",
+          "synonyms": [
+            "Tropicalwhite",
+            "Tropical",
+            "Tropical White",
+            "WhiteBlend",
+            "White Blend",
+            "TropicalBlend",
+            "Tropical Blend"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PEACH WHITE BLEND",
+          "synonyms": [
+            "peachblend",
+            "peach blend",
+            "pechblnd",
+            "peachwhiteblend",
+            "peachwhite blend",
+            "peach white blend",
+            "whiteblend",
+            "white blend",
+            "pchwhtblnd",
+            "peachblnd",
+            "peacwhite",
+            "peach white",
+            "peachwht",
+            "pchwht"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "STRAWBERRY ROSE",
+          "synonyms": [
+            "STRAWBERRY ROSE",
+            "Strawberryrose",
+            "strawberryros",
+            "srose",
+            "strobryrose",
+            "strawros",
+            "strawrose"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CHERRY RED BLEND",
+          "synonyms": [
+            "cherryred",
+            "cherry red",
+            "cherred",
+            "cher red",
+            "chryrd",
+            "chry rd",
+            "cherryredblend",
+            "cherry red blend",
+            "cherryred blend",
+            "redblend",
+            "cherryblend",
+            "red blend",
+            "redblnd",
+            "red blnd",
+            "chryblnd"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "product",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "P10654-06",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "P10657-05",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "P10660-06",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "P6455525",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_39_1559473635188",
+      "event_name": "focus",
+      "dialog_node": "handler_41_1559473635188",
+      "previous_sibling": "handler_40_1559473635188"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_39_1559473635188",
+      "context": {
+        "varietal": "@varietal"
+      },
+      "conditions": "@varietal",
+      "event_name": "input",
+      "dialog_node": "handler_40_1559473635188"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1559473240962",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1559473240962",
+      "previous_sibling": "handler_9_1559473240962"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_8_1559473240962",
+      "context": {
+        "brand": "@brand"
+      },
+      "conditions": "@brand",
+      "event_name": "input",
+      "dialog_node": "handler_9_1559473240962"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_21_1559473557397",
+      "event_name": "focus",
+      "dialog_node": "handler_23_1559473557397",
+      "previous_sibling": "handler_22_1559473557397"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_21_1559473557397",
+      "context": {
+        "shipped": "@shipped"
+      },
+      "conditions": "@shipped",
+      "event_name": "input",
+      "dialog_node": "handler_22_1559473557397"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1559473235287",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1559473235287",
+      "previous_sibling": "handler_6_1559473235287"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_5_1559473235287",
+      "context": {
+        "varietal": "@varietal"
+      },
+      "conditions": "@varietal",
+      "event_name": "input",
+      "dialog_node": "handler_6_1559473235287"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_12_1555465567707",
+      "context": {
+        "varietal": "@varietal"
+      },
+      "metadata": {},
+      "conditions": "@varietal",
+      "event_name": "input",
+      "dialog_node": "handler_13_1555465567707",
+      "previous_sibling": "handler_14_1555465567707"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Would you like to enter the varietal?"
+      },
+      "parent": "slot_12_1555465567707",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_14_1555465567707"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_1_1556557585898",
+      "disabled": true,
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_2_1556557668332",
+      "previous_sibling": "slot_6_1556557697447"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1556557585898",
+      "metadata": {},
+      "variable": "$Balance",
+      "dialog_node": "slot_6_1556557697447"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1556639856246",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1556639856246",
+      "previous_sibling": "handler_9_1556639856246"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_8_1556639856246",
+      "context": {
+        "PackSize": "@PackSize"
+      },
+      "conditions": "@PackSize",
+      "event_name": "input",
+      "dialog_node": "handler_9_1556639856246"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_36_1559473629927",
+      "event_name": "focus",
+      "dialog_node": "handler_38_1559473629927",
+      "previous_sibling": "handler_37_1559473629927"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_36_1559473629927",
+      "context": {
+        "brand": "@brand"
+      },
+      "conditions": "@brand",
+      "event_name": "input",
+      "dialog_node": "handler_37_1559473629927"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1555461389038",
+      "metadata": {},
+      "variable": "$year",
+      "dialog_node": "slot_15_1555465574741",
+      "previous_sibling": "slot_12_1555465567707"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1555461389038",
+      "metadata": {},
+      "variable": "$month",
+      "dialog_node": "slot_2_1556070851135",
+      "previous_sibling": "slot_15_1555465574741"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1555461389038",
+      "metadata": {},
+      "variable": "$varietal",
+      "dialog_node": "slot_12_1555465567707",
+      "previous_sibling": "slot_9_1555465560076"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1555461389038",
+      "metadata": {},
+      "variable": "$size",
+      "dialog_node": "slot_9_1555465560076",
+      "previous_sibling": "slot_6_1555465551646"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1555461389038",
+      "variable": "$brand",
+      "dialog_node": "slot_6_1555465551646"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_17_1559473361115",
+      "event_name": "focus",
+      "dialog_node": "handler_19_1559473361115",
+      "previous_sibling": "handler_18_1559473361115"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_17_1559473361115",
+      "context": {
+        "month": "@month"
+      },
+      "conditions": "@month",
+      "event_name": "input",
+      "dialog_node": "handler_18_1559473361115"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1559473194899",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1559473194899",
+      "previous_sibling": "handler_3_1559473194899"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1559473194899",
+      "context": {
+        "size": "@size"
+      },
+      "conditions": "@size",
+      "event_name": "input",
+      "dialog_node": "handler_3_1559473194899"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1556503412944",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1556503412944",
+      "previous_sibling": "handler_3_1556503412944"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1556503412944",
+      "context": {
+        "brand": "@brand"
+      },
+      "conditions": "@brand",
+      "event_name": "input",
+      "dialog_node": "handler_3_1556503412944"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_15_1551725905097",
+      "context": {
+        "varietal": "@varietal"
+      },
+      "metadata": {},
+      "conditions": "@varietal",
+      "event_name": "input",
+      "dialog_node": "handler_16_1551725905097",
+      "previous_sibling": "handler_17_1551725905097"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_15_1551725905097",
+      "metadata": {},
+      "event_name": "nomatch",
+      "dialog_node": "handler_19_1551725945360",
+      "previous_sibling": "handler_18_1551725945360"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_15_1551725905097",
+      "metadata": {},
+      "event_name": "filled",
+      "dialog_node": "handler_18_1551725945360",
+      "previous_sibling": "handler_16_1551725905097"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Would you like to enter the varietal?"
+      },
+      "parent": "slot_15_1551725905097",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_17_1551725905097"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1551316579219",
+      "metadata": {},
+      "variable": "$year",
+      "dialog_node": "slot_16_1555421532252",
+      "previous_sibling": "slot_15_1551725905097"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1551316579219",
+      "dialog_node": "slot_26_1555428427349",
+      "previous_sibling": "slot_16_1555421532252"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1551316579219",
+      "metadata": {},
+      "variable": "$varietal",
+      "dialog_node": "slot_15_1551725905097",
+      "previous_sibling": "slot_6_1551714112662"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1551316579219",
+      "metadata": {
+        "_customization": {}
+      },
+      "variable": "$brand",
+      "dialog_node": "slot_1_1551646883903",
+      "previous_sibling": "handler_9_1551714121039"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1551316579219",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$size",
+      "dialog_node": "slot_6_1551714112662",
+      "previous_sibling": "slot_1_1551646883903"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "I need some more info to continue."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1551316579219",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_9_1551714121039"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_16_1555421532252",
+      "context": {
+        "year": "@year"
+      },
+      "metadata": {},
+      "conditions": "@year",
+      "event_name": "input",
+      "dialog_node": "handler_17_1555421532252",
+      "previous_sibling": "handler_18_1555421532252"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Would you like to enter the year?"
+      },
+      "parent": "slot_16_1555421532252",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_18_1555421532252"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_27_1559473612903",
+      "event_name": "focus",
+      "dialog_node": "handler_29_1559473612903",
+      "previous_sibling": "handler_28_1559473612903"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_27_1559473612903",
+      "context": {
+        "month": "@month"
+      },
+      "conditions": "@month",
+      "event_name": "input",
+      "dialog_node": "handler_28_1559473612903"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_24_1559473576249",
+      "event_name": "focus",
+      "dialog_node": "handler_26_1559473576249",
+      "previous_sibling": "handler_25_1559473576249"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_24_1559473576249",
+      "context": {
+        "product": "@product"
+      },
+      "conditions": "@product",
+      "event_name": "input",
+      "dialog_node": "handler_25_1559473576249"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1556503427295",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1556503427295",
+      "previous_sibling": "handler_6_1556503427295"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_5_1556503427295",
+      "context": {
+        "varietal": "@varietal"
+      },
+      "conditions": "@varietal",
+      "event_name": "input",
+      "dialog_node": "handler_6_1556503427295"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_14_1559473349538",
+      "event_name": "focus",
+      "dialog_node": "handler_16_1559473349538",
+      "previous_sibling": "handler_15_1559473349538"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_14_1559473349538",
+      "context": {
+        "year": "@year"
+      },
+      "conditions": "@year",
+      "event_name": "input",
+      "dialog_node": "handler_15_1559473349538"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_11_1556503462578",
+      "event_name": "focus",
+      "dialog_node": "handler_13_1556503462578",
+      "previous_sibling": "handler_12_1556503462578"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_11_1556503462578",
+      "context": {
+        "year": "@year"
+      },
+      "conditions": "@year",
+      "event_name": "input",
+      "dialog_node": "handler_12_1556503462578"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1556557697447",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_8_1556557697447",
+      "previous_sibling": "handler_7_1556557697447"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1556557697447",
+      "context": {
+        "Balance": "@Balance"
+      },
+      "metadata": {},
+      "conditions": "@Balance",
+      "event_name": "input",
+      "dialog_node": "handler_7_1556557697447"
+    },
+    {
+      "type": "slot",
+      "parent": "node_20_1559473447202",
+      "variable": "$size",
+      "dialog_node": "slot_42_1559473639865",
+      "previous_sibling": "slot_39_1559473635188"
+    },
+    {
+      "type": "slot",
+      "parent": "node_20_1559473447202",
+      "variable": "$product",
+      "dialog_node": "slot_24_1559473576249",
+      "previous_sibling": "slot_21_1559473557397"
+    },
+    {
+      "type": "slot",
+      "parent": "node_20_1559473447202",
+      "variable": "$varietal",
+      "dialog_node": "slot_39_1559473635188",
+      "previous_sibling": "slot_36_1559473629927"
+    },
+    {
+      "type": "slot",
+      "parent": "node_20_1559473447202",
+      "variable": "$year",
+      "dialog_node": "slot_30_1559473615173",
+      "previous_sibling": "slot_27_1559473612903"
+    },
+    {
+      "type": "slot",
+      "parent": "node_20_1559473447202",
+      "variable": "$month",
+      "dialog_node": "slot_27_1559473612903",
+      "previous_sibling": "slot_24_1559473576249"
+    },
+    {
+      "type": "slot",
+      "parent": "node_20_1559473447202",
+      "variable": "$brand",
+      "dialog_node": "slot_36_1559473629927",
+      "previous_sibling": "slot_33_1559473623971"
+    },
+    {
+      "type": "slot",
+      "parent": "node_20_1559473447202",
+      "dialog_node": "slot_45_1559473646370",
+      "previous_sibling": "slot_42_1559473639865"
+    },
+    {
+      "type": "slot",
+      "parent": "node_20_1559473447202",
+      "variable": "$Date",
+      "dialog_node": "slot_33_1559473623971",
+      "previous_sibling": "slot_30_1559473615173"
+    },
+    {
+      "type": "slot",
+      "parent": "node_20_1559473447202",
+      "variable": "$shipped",
+      "dialog_node": "slot_21_1559473557397"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_15_1555465574741",
+      "context": {
+        "year": "@year"
+      },
+      "metadata": {},
+      "conditions": "@year",
+      "event_name": "input",
+      "dialog_node": "handler_16_1555465574741",
+      "previous_sibling": "handler_17_1555465574741"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Would you like to enter the year?"
+      },
+      "parent": "slot_15_1555465574741",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_17_1555465574741"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_33_1559473623971",
+      "event_name": "focus",
+      "dialog_node": "handler_35_1559473623971",
+      "previous_sibling": "handler_34_1559473623971"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_33_1559473623971",
+      "context": {
+        "Date": "@Date"
+      },
+      "conditions": "@Date",
+      "event_name": "input",
+      "dialog_node": "handler_34_1559473623971"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1556639847278",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1556639847278",
+      "previous_sibling": "handler_6_1556639847278"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1556639847278",
+      "context": {
+        "Date": "@Date"
+      },
+      "metadata": {},
+      "conditions": "@Date",
+      "event_name": "input",
+      "dialog_node": "handler_6_1556639847278"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1551714112662",
+      "metadata": {},
+      "conditions": "true",
+      "event_name": "nomatch",
+      "dialog_node": "handler_14_1551719544893",
+      "previous_sibling": "handler_7_1551714112662"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1551714112662",
+      "context": {
+        "size": "@size"
+      },
+      "metadata": {},
+      "conditions": "@size",
+      "event_name": "input",
+      "dialog_node": "handler_7_1551714112662",
+      "previous_sibling": "handler_8_1551714112662"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Would you like to enter the size?"
+      },
+      "parent": "slot_6_1551714112662",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_8_1551714112662"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1556639699476",
+      "variable": "$PackSize",
+      "dialog_node": "slot_8_1556639856246",
+      "previous_sibling": "slot_5_1556639847278"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1556639699476",
+      "metadata": {},
+      "variable": "$Date",
+      "dialog_node": "slot_5_1556639847278",
+      "previous_sibling": "slot_2_1556639833599"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1556639699476",
+      "variable": "$ItemDesc",
+      "dialog_node": "slot_2_1556639833599"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1556639833599",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1556639833599",
+      "previous_sibling": "handler_3_1556639833599"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1556639833599",
+      "context": {
+        "ItemDesc": "@ItemDesc"
+      },
+      "conditions": "@ItemDesc",
+      "event_name": "input",
+      "dialog_node": "handler_3_1556639833599"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter the month."
+      },
+      "parent": "slot_21_1556302996097",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_23_1556302996097",
+      "previous_sibling": "handler_22_1556302996097"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_21_1556302996097",
+      "context": {
+        "month": "@month"
+      },
+      "metadata": {},
+      "conditions": "@month",
+      "event_name": "input",
+      "dialog_node": "handler_22_1556302996097"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1556503455620",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1556503455620",
+      "previous_sibling": "handler_9_1556503455620"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_8_1556503455620",
+      "context": {
+        "size": "@size"
+      },
+      "conditions": "@size",
+      "event_name": "input",
+      "dialog_node": "handler_9_1556503455620"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1555465560076",
+      "context": {
+        "size": "@size"
+      },
+      "metadata": {},
+      "conditions": "@size",
+      "event_name": "input",
+      "dialog_node": "handler_10_1555465560076",
+      "previous_sibling": "handler_11_1555465560076"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Would you like to enter the size?"
+      },
+      "parent": "slot_9_1555465560076",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_11_1555465560076"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1559761889265",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1559761889265",
+      "previous_sibling": "handler_2_1559761889265"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_1_1559761889265",
+      "context": {
+        "Balance": "@Balance"
+      },
+      "conditions": "@Balance",
+      "event_name": "input",
+      "dialog_node": "handler_2_1559761889265"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Enter a brand"
+      },
+      "parent": "slot_6_1555465551646",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_8_1555465551646",
+      "previous_sibling": "handler_7_1555465551646"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_6_1555465551646",
+      "context": {
+        "brand": "@brand"
+      },
+      "conditions": "@brand",
+      "event_name": "input",
+      "dialog_node": "handler_7_1555465551646"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_45_1559473646370",
+      "event_name": "focus",
+      "dialog_node": "handler_47_1559473646370",
+      "previous_sibling": "handler_46_1559473646370"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_45_1559473646370",
+      "event_name": "input",
+      "dialog_node": "handler_46_1559473646370"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1559473126023",
+      "variable": "$year",
+      "dialog_node": "slot_14_1559473349538",
+      "previous_sibling": "slot_8_1559473240962"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1559473126023",
+      "variable": "$brand",
+      "dialog_node": "slot_8_1559473240962",
+      "previous_sibling": "slot_5_1559473235287"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1559473126023",
+      "variable": "$Balance",
+      "dialog_node": "slot_1_1559761889265",
+      "previous_sibling": "slot_17_1559473361115"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1559473126023",
+      "variable": "$varietal",
+      "dialog_node": "slot_5_1559473235287",
+      "previous_sibling": "slot_2_1559473194899"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1559473126023",
+      "variable": "$month",
+      "dialog_node": "slot_17_1559473361115",
+      "previous_sibling": "slot_14_1559473349538"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1559473126023",
+      "variable": "$size",
+      "dialog_node": "slot_2_1559473194899"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1551646883903",
+      "context": {
+        "brand": "@brand"
+      },
+      "metadata": {},
+      "conditions": "@brand",
+      "event_name": "input",
+      "dialog_node": "handler_2_1551646883903",
+      "previous_sibling": "handler_3_1551646883903"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1551646883903",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_3_1551646883903"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1556070851135",
+      "context": {
+        "month": "@month"
+      },
+      "metadata": {},
+      "conditions": "@month",
+      "event_name": "input",
+      "dialog_node": "handler_3_1556070851136",
+      "previous_sibling": "handler_4_1556070851136"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Would you like to enter the month?"
+      },
+      "parent": "slot_2_1556070851135",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_4_1556070851136"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1556503382911",
+      "variable": "$varietal",
+      "dialog_node": "slot_5_1556503427295",
+      "previous_sibling": "slot_2_1556503412944"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1556503382911",
+      "variable": "$size",
+      "dialog_node": "slot_8_1556503455620",
+      "previous_sibling": "slot_5_1556503427295"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1556503382911",
+      "variable": "$year",
+      "dialog_node": "slot_11_1556503462578",
+      "previous_sibling": "slot_8_1556503455620"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1556503382911",
+      "variable": "$brand",
+      "dialog_node": "slot_2_1556503412944"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_26_1555428427349",
+      "event_name": "focus",
+      "dialog_node": "handler_28_1555428427349",
+      "previous_sibling": "handler_27_1555428427349"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_26_1555428427349",
+      "event_name": "input",
+      "dialog_node": "handler_27_1555428427349"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_42_1559473639865",
+      "event_name": "focus",
+      "dialog_node": "handler_44_1559473639865",
+      "previous_sibling": "handler_43_1559473639865"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_42_1559473639865",
+      "context": {
+        "size": "@size"
+      },
+      "conditions": "@size",
+      "event_name": "input",
+      "dialog_node": "handler_43_1559473639865"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_30_1559473615173",
+      "event_name": "focus",
+      "dialog_node": "handler_32_1559473615173",
+      "previous_sibling": "handler_31_1559473615173"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_30_1559473615173",
+      "context": {
+        "year": "@year"
+      },
+      "conditions": "@year",
+      "event_name": "input",
+      "dialog_node": "handler_31_1559473615173"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Always ready to help you with the required info"
+              },
+              {
+                "text": "This may take few minutes"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1556212036332",
+      "metadata": {},
+      "conditions": "#inventory",
+      "dialog_node": "node_1_1556302372606",
+      "previous_sibling": "handler_3_1556302532906"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_1_1556212036332",
+      "disabled": true,
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_3_1556302532906",
+      "previous_sibling": "slot_21_1556302996097"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1556212036332",
+      "metadata": {},
+      "variable": "$month",
+      "dialog_node": "slot_21_1556302996097"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "currentIntent": "OrderQty"
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#OrderQty",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1556639699476",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1556557585898",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "frame",
+      "title": "#Balance",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "currentIntent": "Balance"
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#balance",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1559473126023",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_5_1555461389038",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "frame",
+      "title": "#quantity",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "currentIntent": "quantity"
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#quantity",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1551316579219",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1551277798769",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "frame",
+      "title": "#forecast",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "currentIntent": "forecast"
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#forecast",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1555461389038",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_5_1551316579219",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "frame",
+      "output": {},
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#inventory",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1556212036332",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1551277841734",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, please enter your request!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "currentIntent": "hello"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_5_1551316579219"
+      },
+      "conditions": "#hello",
+      "dialog_node": "node_1_1551277798769",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "frame",
+      "title": "#compare",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "currentIntent": "compare"
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#compare",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1556503382911",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_20_1559473447202",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "currentIntent": "amount"
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#amount",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1556557585898",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_27_1556303974265",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1556639699476"
+    },
+    {
+      "type": "frame",
+      "title": "#Shipped",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "CurrentIntent": "Product"
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "@shipped",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_20_1559473447202",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1559473126023",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "See you later",
+            "Ciao",
+            "Bye",
+            "Have fun",
+            "Peace out, homie",
+            "Goodbye"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "actions": [
+        {
+          "name": "end_conversation",
+          "type": "client",
+          "result_variable": "null"
+        }
+      ],
+      "context": {
+        "currentIntent": "bye"
+      },
+      "metadata": {},
+      "conditions": "#bye",
+      "dialog_node": "node_2_1551277841734",
+      "previous_sibling": "node_1_1556503382911"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "@Description",
+      "dialog_node": "node_27_1556303974265",
+      "previous_sibling": "node_1_1556212036332"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome to Sally Assistant!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "currentIntent": "welcome"
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "1b773d3b-eab5-43cb-943d-f0abb833174a",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
