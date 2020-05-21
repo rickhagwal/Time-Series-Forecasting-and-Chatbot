@@ -48,10 +48,15 @@ iv.)	Used Time Series Forecasting Model i.e., Prophet, to predict the future shi
 
 Below figure depicts how data looks like, before prediction of data.
 
+![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/Daily%20Shipment%20Seasonality.jpg)
 
 Below figure depicts what data looks like after prediction of data. Here, blackdots represents the actual data, and dark blue represents the forecasted data.
 
+![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/Predicted%20Data.jpg)
+
 Below figure represents the trend of data forecasted, along with holidays and weekly seasonality.
+
+![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/Data%20forecasted%20for%20diff%20seasonalities.png)
 
 
 v.)	Fetching data from MySQL database, and excel spreadsheets, to apply Machine Learning models to or used inside IBM Watson conversation based NLP service.
