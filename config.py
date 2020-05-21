@@ -33,10 +33,10 @@ slack_client = SlackClient(SLACK_BOT_TOKEN) # do not change this parameter
 ###################################################################
 
 service = ibm_watson.AssistantV1(
-    iam_apikey = '2_QYyDcMdbBKrZHpuvvmjDqsh0KCWBjqSwSMJ7xW3E45', # replace with Password
+    iam_apikey = '*********', # replace with Password
     version = '2018-09-20'
 )
-workspace_id = '5c587718-25e7-4bdd-b656-116aecb1b4d8' # replace with Assistant ID
+workspace_id = '**********' # replace with Assistant ID
 
 ###################################################################
 ######## MySQL Database connection   ##########################
@@ -45,7 +45,7 @@ workspace_id = '5c587718-25e7-4bdd-b656-116aecb1b4d8' # replace with Assistant I
 try:
     conn = mysql.connector.connect(host="localhost",
                 user="root",
-                password="Twg@12345!",  
+                password="Twg@1*****!",  
                 database="sc_data")
     if conn.is_connected():
         print('Connected to MySQL database')
