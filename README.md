@@ -27,27 +27,27 @@ Below figures depicts Data Visualization using ad-hoc analysis and presenting re
 
 ### Comparison of Stock for different years of some specific brand wine and other criterias-
 
-![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/Comparison.jpg)
+![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/images/Comparison.jpg)
 
 ### Comparing Inventory for different years of some specific brand of wine and other criterias-
 
-![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/tablegraph.jpg)
+![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/images/tablegraph.jpg)
 
 ### Out Of Stock Trend for Specific Brand-
 
-![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/OOS-trend-for%20Franzia.jpg)
+![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/images/OOS-trend-for%20Franzia.jpg)
 
 ### Out Of Stock Orders-
 
-![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/outOfStockList.jpg)
+![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/images/outOfStockList.jpg)
 
 ### Inventory-
 
-![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/inventoryOutput.jpg)
+![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/images/inventoryOutput.jpg)
 
 ### Production Plan-
 
-![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/table.jpg)
+![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/images/table.jpg)
 
 
 ## iv.)	Used Time Series Forecasting Model i.e., Prophet, to predict the future shipments of wines, belonging to a specific brand, size, varietal and master code respectively.
@@ -56,18 +56,18 @@ Below figure depicts how data looks like, before prediction of data.
 
 ### Wine Data Before Prediction
 
-![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/Daily%20Shipment%20Seasonality.jpg)
+![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/images/Daily%20Shipment%20Seasonality.jpg)
 
 Below figure depicts what data looks like after prediction of data. Here, blackdots represents the actual data, and dark blue represents the forecasted data.
 
 ### Predicted Data
 
-![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/Predicted%20Data.jpg)
+![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/images/Predicted%20Data.jpg)
 
 Below figure represents the trend of data forecasted, along with holidays and weekly seasonality i.e.,
 ### Seasonality Trends.
 
-![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/Data%20forecasted%20for%20diff%20seasonalities.png)
+![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/images/Data%20forecasted%20for%20diff%20seasonalities.png)
 
 Major challenge was to be able to predict which wine would go out of stock in the coming future, based upon history data. By applying time-series forecasting model, we could be able to do that. Just we need to do data preprocessing effectively, in order to make it efficient for every variety of wine. As for some wines, we are shipping almost daily, some of them we are shipping in regular time, some of them we are shipping irregularly etc.
 
