@@ -19,17 +19,17 @@ iii.)	Data Visualisation using ad-hoc analysis and presenting results in the for
 
 Below figures depicts Data Visualization using ad-hoc analysis and presenting results in the form of Charts, tables, excel spreadsheets etc.
 
-
+Comparison of Stock for different years of some specific brand wine and other criterias-
 
 ![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/Comparison.jpg)
+
+Comparing Inventory for different years of some specific brand wine and other criterias-
+
+![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/tablegraph.jpg)
 
 Out Of Stock Trend for Specific Brand-
 
 ![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/OOS-trend-for%20Franzia.jpg)
-
-Out Of Stock Trend List-
-
-![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/OutOfStockTrend.jpg)
 
 Out Of Stock Orders-
 
@@ -42,10 +42,6 @@ Inventory-
 Production Plan-
 
 ![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/table.jpg)
-
-Comparing Inventory for differenmt years of some specific brand wine and other criterias-
-
-![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/tablegraph.jpg)
 
 
 iv.)	Used Time Series Forecasting Model i.e., Prophet, to predict the future shipments of wines, belonging to a specific brand, size, varietal and master code respectively.
