@@ -71,6 +71,14 @@ Below figure represents the trend of data forecasted, along with holidays and we
 
 Major challenge was to be able to predict which wine would go out of stock in the coming future, based upon history data. By applying time-series forecasting model, we could be able to do that. Just we need to do data preprocessing effectively, in order to make it efficient for every variety of wine. As for some wines, we are shipping almost daily, some of them we are shipping in regular time, some of them we are shipping irregularly etc.
 
+Sample Forecasted daily Data for 5L wine-
+
+https://github.com/rickhagwal/Chatbot-TWG/blob/master/predicted%20data/forecast_customer_orders_daily.xlsx
+
+Sample Forecasted monthly Data for 5L wine-
+
+https://github.com/rickhagwal/Chatbot-TWG/blob/master/predicted%20data/forecast_customer_orders_monthly.xlsx
+
 v.)	Fetching data from MySQL database, and excel spreadsheets, to apply Machine Learning models to or used inside IBM Watson conversation based NLP service.
 
 
