@@ -54,10 +54,11 @@ Below figure depicts what data looks like after prediction of data. Here, blackd
 
 ![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/Predicted%20Data.jpg)
 
-Below figure represents the trend of data forecasted, along with holidays and weekly seasonality.
+Below figure represents the trend of data forecasted, along with holidays and weekly seasonality i.e., Seasonality Trends.
 
 ![alt text](https://github.com/rickhagwal/Chatbot-TWG/blob/master/Data%20forecasted%20for%20diff%20seasonalities.png)
 
+Major challenge was to be able to predict which wine would go out of stock in the coming future, based upon history data. By applying time-series forecasting model, we could be able to do that. Just we need to do data preprocessing effectively, in order to make it efficient for every variety of wine. As for some wines, we are shipping almost daily, some of them we are shipping in regular time, some of them we are shipping irregularly etc.
 
 v.)	Fetching data from MySQL database, and excel spreadsheets, to apply Machine Learning models to or used inside IBM Watson conversation based NLP service.
 
