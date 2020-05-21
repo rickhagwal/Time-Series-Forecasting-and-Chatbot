@@ -2,11 +2,14 @@
 
 ### IBM Watson NLP based Chatbot
 
-## i.)	Created an IBM Watson conversation service, which is an NLP- based chatbot, that I have to train in the manner such that it knows what user is asking from it, and gives correct response.  IBM Watson learns from its experience. We have integrated slack bot , which listens to Watson conversations, and responds with the appropriate answers provided by IBM Watson. 
+## i.)	Created an IBM Watson conversation service, which is an NLP- based chatbot, that we have to train in the manner such that it knows what user is asking from it, and gives correct response.  IBM Watson learns from its experience. We have integrated slack bot , which listens to Watson conversations, and responds with the appropriate answers provided by IBM Watson. 
 Below is the config.py file, with Slack Configuration and Watson Configuartion(hidden)-
 
 https://github.com/rickhagwal/Chatbot-TWG/blob/master/config.py
 
+here is the skillset we trained our chatbot upon-
+
+https://github.com/rickhagwal/Chatbot-TWG/blob/master/skill-Jarvis.json
 
 ## ii.)	Data Cleaning and preprocessing techniques on the raw data such as-
 a)	Checking out the missing values
