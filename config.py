@@ -22,8 +22,8 @@ location = "/Users/Richa.Khagwal/Downloads/TWG_Bot (2)/TWG_Bot/"  # replace with
 ###################################################################
 
 
-SLACK_BOT_TOKEN='xoxb-675669780535-673830592341-Qw8Jm0CdIYvxYbQ4f023ch2T'
-SLACK_VERIFICATION_TOKEN='ByPzk3UYve1x91llGwGCEvP1' 
+SLACK_BOT_TOKEN='******'
+SLACK_VERIFICATION_TOKEN='******' 
 
 # instantiate Slack client
 slack_client = SlackClient(SLACK_BOT_TOKEN) # do not change this parameter
