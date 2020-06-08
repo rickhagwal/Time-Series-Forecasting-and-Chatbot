@@ -1,6 +1,6 @@
 # Chatbot-Natural Language Processing Based for wines
 
-### IBM Watson NLP based Chatbot
+### Slack and Watson Chatbot using NLP
 
 ## i.)	Created an IBM Watson conversation service, which is an NLP- based chatbot, that we have to train in the manner such that it knows what user is asking from it, and gives correct response.  IBM Watson learns from its experience. We have integrated slack bot , which listens to Watson conversations, and responds with the appropriate answers provided by IBM Watson. 
 Below is the config.py file, with Slack Configuration and Watson Configuartion(hidden)-
